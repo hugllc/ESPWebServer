@@ -1,0 +1,28 @@
+{
+    "name": "ESPWebServer",
+    "keywords": "web, http, httpd",
+    "description": "Port of ESP8266WebServer from https://github.com/esp8266/Arduino.git",
+    "authors":
+    [
+        {
+           "name": "Ivan Grokhotkov",
+           "email": "ivan@esp8266.com",
+           "url": "https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WebServer/"
+        },
+        {
+            "name": "Scott Price",
+            "email": "prices@hugllc.com",
+            "url": "https://github.com/hugllc/ESPWebServer"
+        }
+    ],
+    "version": "0.1.0",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"],
+    "dependencies":
+    [
+        {
+            "name": "FS",
+            "platforms": [ "espressif32", "espressif32_stage" ]
+        }
+    ]
+}
